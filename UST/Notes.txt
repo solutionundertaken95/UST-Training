@@ -1,0 +1,51 @@
+Maven/Gradlde
+
+Build Tool
+
+Functions
+
+1.Dependency Management
+2.Provides Project Structure
+3.Provides plugins
+ 
+ 
+ JUnit
+ 
+ Software Testing
+ Unit Testing
+ Integration Testing
+ E2E Testing(As a whole testing the system)
+ 
+ 
+ Life Cycle of Testing
+ 
+	-Before All
+	-AfterAll
+	-BeforeEach
+	-AfterEach
+	
+
+
+MultiThreading
+
+Thread -smallest unit of process
+Java is Multi Threaded,JavaScript is Single Threaded
+Runtime.getRuntime().availableProcessors() - Available no of processors
+MultiProcessing - Different Processes running together
+MultiThreading - Differentparts of same program running at the same time
+
+Life Cycle of Thread
+
+New >>>>>>>>Runnable(When you call start method) means  you are scheduling the Thread
+Runnable to running and vice versa depending on your scheduler
+Runnable can go to blocked state if it needs to wait for a resource
+(sleep(),wait(),notify(),sleep completes)
+Once code in runnable is complete,it goes to dead state
+yield() - gives chance to another thread to execute
+
+
+Difference between sleep and wait 
+...Sleep is applied on threads
+....wait is applied on objects
+
+ 

@@ -1,0 +1,195 @@
+Git by atlashare- course by Coursera
+
+Merging with rebase
+1. Risky
+2. Loses history of previous master branch
+
+
+Devops
+
+1.Git
+2.Maven/NPM
+3.Jenkins - creating pipelines
+4.Cloud - AWS/Azure/GCP
+5. Docker, Kubernetes
+6. Terraform
+7. Ansible
+
+
+Namaste JavaScript
+
+
+Day 2
+
+Naming Standards
+
+variables/methods - starts with lowercase and follow CamelCase
+
+class/interface - Starts with Upper Case
+
+package name - lowercase
+
+constant/Enums - UPPERCASE
+
+Tip: Add Meaningful Comments
+----------------------------------------------------------------------------------------------------------------------
+Day 3
+
+OOPS
+
+Class is a blueprint for objects
+
+>If access type of a class is private, we can only access the variables using getters and setters for another class
+
+
+Access Modifiers
+
+>Public
+>Private
+>Protected
+>Default
+
+
+public can  be accessed everywhere
+private can only be accessed by the members in class
+protected- can be used within the class and outside if class is inherited
+default- can only be used within the class
+hence default is more powerful
+
+function overloading
+function overriding
+
+------------------------------------------------------------------------------------------------------------------------
+
+Day 4
+
+Stack                             Heap
+
+Main function
+person object
+
+ECommerce App
+
+------------------------------------------------------------------------------------------------------------------------
+
+Day 5
+
+Interface is used to overcome multiple inheritance in java
+Interface is lightweight than a class
+
+You can extend class in interface and implement many classes.
+
+------------------------------------------------------------------------------------------------------------------
+
+
+26 August to 1st September:
+Exception Handling
+Collections
+Multi Threading
+MySQL and JDBC
+
+Day 6
+
+Exceptions
+
+when super method does not throw exception, child method can throw checked exceptions, but cannot throw unchecked exceptions
+
+when super method throws exception, child method cannot throw super type exception. 
+
+
+
+alt+7 - structure
+ctrl + e - last working file
+f2,alt + enter - error correction
+ctrl + alt + n - remove unused imports
+ctrl + alt + l - formatting
+ctrl + shift + / - multi line comments
+ctrl+f11 - bookmark
+****************************************************************************************************************************** 
+Day 7
+Collections
+
+interface can extend another interface
+class implements interfaces
+
+
+var - used in for loop when a collection has variable data
+
+Collection item = new _______();
+
+- can only use collections that are common between list, queue and map.
+
+
+List
+- Ordered Collection
+- Allows Duplicates
+- Uses Index
+- List. Of creates an immutable List
+- Instead use List<String> list = new ArrayList<>(List. Of("Name1","Name2")); 
+
+
+Set
+
+- Unordered Collection
+- No Duplicates
+- Faster
+- Works on Hashing
+
+LinkedHashSet - to maintain order in a set
+TreeSet - to sort a set
+
+
+While using Hashset,Hashmap etc it is mandatory to override hashcode and equals method
+2 different objects can have same hashcodes
+2 same objects must have same hashcodes
+
+
+
+Default in java 8 allows you have to a body in interfaces
+
+if 2 parent classes have default methods,the child class inheriting methods from parent class must override them.
+you can't use lambda expressions when you have more than 1 abstract method,but when you use default it resolves them
+such interfaces are called functional interfaces
+
+
+In MultiLines(Braces) if you need to return anything, you need to type return manually.
+
+Stream cannot be used more than once.
+
+
+> To print object, we need to override toString() Method
+
+
+
+ 
+class collection<T> - means class can accept any data types, hence class is called as generic class
+In main function, for storing integer data, use Calculator<Integer>
+
+>Switch Expression with pattern matching(Java 21 Feature)
+
+***********Always create Generic Collections*****************
+
+
+
+var mallus = trainees.stream().peek(t -> t.setLocation("Kerala")).toList();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
